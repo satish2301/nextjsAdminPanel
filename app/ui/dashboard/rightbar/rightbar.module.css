@@ -1,0 +1,33 @@
+.container {
+  padding: 20px;
+  background-color: var(--bgSoft);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.notification {
+  font-weight: bold;
+}
+.title {
+  font-weight: 500;
+  font-size: 10px;
+  color: var(--textSoft);
+}
+.description {
+}
+
+.button {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #5d57c9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+}
